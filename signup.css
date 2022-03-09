@@ -1,0 +1,17 @@
+body{
+    background-color: blueviolet;
+}
+
+.main{
+    width: 30%;
+    height: 100%;
+    background-color: blanchedalmond;
+    margin: auto;
+    margin-top: 5%;
+}
+.edit{
+    margin-left: 8%;
+}
+.btn1{
+    margin-left: 41%;
+}
