@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Smart Agriculture System</title>
+    <link rel="stylesheet" href="hindi.css">
+</head>
+<script>
+   function myfunction(){
+        var un = document.getElementById('user').value;
+        var pas = document.getElementById('password').value;
+
+        if(un=="divyanshu" && pas=="dsce123")
+        {
+            window.location.href = 'account.html';
+        }
+        else
+        {
+            alert('Invalid username and password');
+        }
+    }
+    
+    
+</script>
+<body>
+    <div class="header">
+        <div class="ele">Smart Agriculture System</div>
+        <div class="btn"><button ><a href="signup.html">Sign Up</a></button></div>
+
+    </div>
+    <form>
+        <div class="login">
+            
+        <h2 style="margin-left: 9%;">Enter your username and password</h2>
+        <div class="user">
+            <label>
+                Username:
+                <input type="text" id="user" required>
+            </label>
+        </div>
+        <br><br>
+        <div class="pass">
+            <label>
+                Password:
+                <input type="password" id="password" required>
+            </label>
+        </div>
+        <br>
+        <input type="button" class="btn1" value="Login" onclick="myfunction()">
+        
+    </div>
+    </form>
+    
+</body>
+</html>
